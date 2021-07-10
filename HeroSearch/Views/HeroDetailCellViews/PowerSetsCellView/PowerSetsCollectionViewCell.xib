@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="PowerSetsCollectionViewCell" id="gTV-IL-0wX" customClass="PowerSetsCollectionViewCell" customModule="PoalimProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="479" height="239"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="479" height="239"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpo-2b-x6p">
+                        <rect key="frame" x="24" y="0.0" width="431" height="227"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="4yY-po-GON">
+                                <rect key="frame" x="24" y="16" width="383" height="195"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RTU-Vb-Pd7">
+                                        <rect key="frame" x="0.0" y="0.0" width="383" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="100" verticalHuggingPriority="1000" text="Intelligence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUI-C6-9GM">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZQ-iB-FMz" customClass="ProgressBar" customModule="PoalimProject" customModuleProvider="target">
+                                                <rect key="frame" x="100" y="0.0" width="283" height="25"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                        <color key="value" red="0.99819165470000004" green="0.2335231602" blue="0.18818339710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sXy-8S-DuA">
+                                        <rect key="frame" x="0.0" y="34" width="383" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Strength" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaI-HQ-akQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m9A-UR-VoR" customClass="ProgressBar" customModule="PoalimProject" customModuleProvider="target">
+                                                <rect key="frame" x="100" y="0.0" width="283" height="25"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                        <color key="value" red="0.99819165470000004" green="0.2335231602" blue="0.18818339710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KoR-Ce-O8y">
+                                        <rect key="frame" x="0.0" y="68" width="383" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="253" text="Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lx6-vH-Kuf">
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgT-MY-HxS" customClass="ProgressBar" customModule="PoalimProject" customModuleProvider="target">
+                                                <rect key="frame" x="100" y="0.0" width="283" height="25"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                        <color key="value" red="0.99819165470000004" green="0.2335231602" blue="0.18818339710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JM1-P7-lB8">
+                                        <rect key="frame" x="0.0" y="102" width="383" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Durability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUM-wO-vSi">
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bN3-TP-GcH" customClass="ProgressBar" customModule="PoalimProject" customModuleProvider="target">
+                                                <rect key="frame" x="100" y="0.0" width="283" height="25"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                        <color key="value" red="0.99819165470000004" green="0.2335231602" blue="0.18818339710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MFc-gQ-eYY">
+                                        <rect key="frame" x="0.0" y="136" width="383" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5q-Up-3OS">
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKG-cW-6A6" customClass="ProgressBar" customModule="PoalimProject" customModuleProvider="target">
+                                                <rect key="frame" x="100" y="0.0" width="283" height="25"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                        <color key="value" red="0.99819165470000004" green="0.2335231602" blue="0.18818339710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5CD-rL-Clm">
+                                        <rect key="frame" x="0.0" y="170" width="383" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Combat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJF-J7-HYy">
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lf0-h2-dBr" customClass="ProgressBar" customModule="PoalimProject" customModuleProvider="target">
+                                                <rect key="frame" x="100" y="0.0" width="283" height="25"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                        <color key="value" red="0.99819165470000004" green="0.2335231602" blue="0.18818339710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="m9A-UR-VoR" firstAttribute="width" secondItem="gZQ-iB-FMz" secondAttribute="width" id="2ki-gf-m1E"/>
+                                    <constraint firstItem="xgT-MY-HxS" firstAttribute="width" secondItem="m9A-UR-VoR" secondAttribute="width" id="Aj2-6O-K0S"/>
+                                    <constraint firstItem="lf0-h2-dBr" firstAttribute="width" secondItem="vKG-cW-6A6" secondAttribute="width" id="Hs9-yv-Dp2"/>
+                                    <constraint firstItem="vKG-cW-6A6" firstAttribute="width" secondItem="bN3-TP-GcH" secondAttribute="width" id="sH6-DI-XwX"/>
+                                    <constraint firstItem="bN3-TP-GcH" firstAttribute="width" secondItem="xgT-MY-HxS" secondAttribute="width" id="sVT-U4-Tum"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4yY-po-GON" firstAttribute="leading" secondItem="Cpo-2b-x6p" secondAttribute="leading" constant="24" id="0zX-Mf-yzy"/>
+                            <constraint firstItem="4yY-po-GON" firstAttribute="top" secondItem="Cpo-2b-x6p" secondAttribute="top" constant="16" id="1cS-Em-tWe"/>
+                            <constraint firstAttribute="bottom" secondItem="4yY-po-GON" secondAttribute="bottom" constant="16" id="FCF-lI-Tei"/>
+                            <constraint firstAttribute="trailing" secondItem="4yY-po-GON" secondAttribute="trailing" constant="24" id="N3D-Py-YSG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Cpo-2b-x6p" secondAttribute="bottom" constant="12" id="GZ0-FZ-KY2"/>
+                <constraint firstItem="Cpo-2b-x6p" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="I5h-Cc-QX9"/>
+                <constraint firstAttribute="trailing" secondItem="Cpo-2b-x6p" secondAttribute="trailing" constant="24" id="ZEy-nd-6CH"/>
+                <constraint firstItem="Cpo-2b-x6p" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="qIA-jD-Zxm"/>
+            </constraints>
+            <size key="customSize" width="479" height="239"/>
+            <connections>
+                <outlet property="bView" destination="Cpo-2b-x6p" id="0US-KT-fYK"/>
+                <outlet property="combatProgressView" destination="lf0-h2-dBr" id="AOn-7T-c1a"/>
+                <outlet property="durabilityProgressView" destination="bN3-TP-GcH" id="wOS-uu-8kx"/>
+                <outlet property="inteligenceProgressView" destination="gZQ-iB-FMz" id="IoY-wk-yzT"/>
+                <outlet property="powerProgressView" destination="vKG-cW-6A6" id="VIn-U0-Ahm"/>
+                <outlet property="speedProgressView" destination="xgT-MY-HxS" id="vKB-Av-lOG"/>
+                <outlet property="strengthProgressView" destination="m9A-UR-VoR" id="ROO-Q4-87u"/>
+            </connections>
+            <point key="canvasLocation" x="403.62318840579712" y="290.95982142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

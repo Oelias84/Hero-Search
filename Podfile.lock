@@ -1,0 +1,16 @@
+PODS:
+  - iProgressHUD (1.1.1)
+
+DEPENDENCIES:
+  - iProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - iProgressHUD
+
+SPEC CHECKSUMS:
+  iProgressHUD: caa742128253c97f2c2e1ec59e2bbe6cf689df6a
+
+PODFILE CHECKSUM: 1ebc0ecaff738556da0d889b93eade5ffeb892dc
+
+COCOAPODS: 1.8.4
